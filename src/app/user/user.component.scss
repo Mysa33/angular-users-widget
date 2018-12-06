@@ -1,0 +1,24 @@
+@import "../../app/main";
+.user-container{
+    .card-title{
+        text-transform: capitalize;
+    }
+    .user-name{
+        color:$name-color;
+    }
+    .user-mail{
+        color:$mail-color;
+    }
+    .user-phone{
+        color:$phone-color;
+    }
+    .user-action{
+        background-color:$primary-bg-color;
+        border-color:$primary-bg-color;
+    }
+    .user-action:hover{
+        background-color:$primary-color;
+        border-color:$primary-color;
+        font-weight:500;
+    }
+}
