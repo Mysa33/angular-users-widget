@@ -1,0 +1,30 @@
+@import "../../app/main";
+.user-modal-container{
+    position: fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    width: 100vw;
+    z-index: 1000;
+    background-color: rgba($color: #000000, $alpha: .6);
+    .user-modal-body{
+        width:50vw;
+        height:60vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20vh;
+        margin-bottom: 20vh;
+        background-color: #FFF;
+        border: 2px solid #efefef;
+        border-radius: 4px;
+    }
+    .user-modal-footer{
+        position: relative;
+        z-index: 1001;
+        top:26.4vw;
+        /*width:100%;
+        height:70px;*/
+        background-color: $primary-bg-color;
+        
+    }
+}
