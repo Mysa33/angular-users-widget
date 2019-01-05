@@ -6,6 +6,7 @@
     height:100vh;
     width: 100vw;
     z-index: 1000;
+    font-family: $font-stack;
     background-color: rgba($color: #000000, $alpha: .6);
     .user-modal-body{
         width:50vw;
@@ -17,14 +18,12 @@
         background-color: #FFF;
         border: 2px solid #efefef;
         border-radius: 4px;
-    }
-    .user-modal-footer{
-        position: relative;
-        z-index: 1001;
-        top:26.4vw;
-        /*width:100%;
-        height:70px;*/
-        background-color: $primary-bg-color;
-        
+        .user-modal-btn-container{
+            
+            width :60%;
+            margin-left:auto;
+            margin-right: auto;
+            text-align: center;
+        }
     }
 }

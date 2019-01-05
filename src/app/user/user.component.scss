@@ -1,6 +1,7 @@
 @import "../../app/main";
 .user-container{
     margin-bottom : 0.8em;
+    font-family: $font-stack!important;
     .card-title{
         text-transform: capitalize;
     }

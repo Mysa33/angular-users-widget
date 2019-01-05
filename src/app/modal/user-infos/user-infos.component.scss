@@ -1,0 +1,15 @@
+
+.user-infos-comp{
+    height:268px;
+    .row{
+        margin-top:20px;
+        margin-bottom:20px;
+        h3{
+            text-transform: capitalize;
+        }
+        .user-info-title{
+            font-size:1.3em;
+            font-weight: 500;
+        }
+    }
+}

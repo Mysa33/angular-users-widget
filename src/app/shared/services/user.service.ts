@@ -6,12 +6,12 @@ import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 })
 export class UserService {
   
-  public URL:string;
+  public url:string;
   
   constructor(private _http:HttpClient) { }
 
-  getData(URL){
-    return this._http.get(URL);
+  getData(url){
+    return this._http.get(url);
   }
 
 }
